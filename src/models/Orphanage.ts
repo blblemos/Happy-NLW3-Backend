@@ -21,7 +21,7 @@ export default class Orphanage {
     instructions: string;
 
     @Column()
-    openig_hours: string;
+    opening_hours: string;
 
     @Column()
     open_on_weekends: boolean;
